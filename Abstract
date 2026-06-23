@@ -1,0 +1,11 @@
+Abstract: 
+
+ASTRID: Enforcing Data Provenance in Roman-Scale Time-Domain Pipelines
+
+As time-domain astronomy transitions into a regime of unprecedented high-cadence data streams, the reliability of automated discovery pipelines is increasingly compromised by metadata opacity and systemic false positives. This work introduces Stellar Intelligence, a cognitive operating system centered on ASTRID (Astronomical System for Translating Radiance Into Discovery), an open-source reasoning agent designed to enforce data provenance across complex pipelines.
+
+ASTRID implements a strictly sequential four-stage execution loop—Observation, Evidence, Interpretation, and Uncertainty—which maps raw photometric inputs to verifiable, auditable outcomes. 
+
+We demonstrate the system’s operational resiliency under Roman Galactic Bulge Time Domain Survey (GBTDS) scale data stressors, showing how it maintains an immutable 'Stellar Journal' for complex microlensing and transit events. By enforcing strict data segregation that mirrors the requirements of Dual Anonymous Proposal Review (DAPR), the ASTRID architecture provides an extensible, testable blueprint for next-generation observatories, including the Habitable Worlds Observatory (HWO). The system’s database schemas, intent-routing layers, and state machines are open-source, providing a foundation for ongoing community-led validation of production-scale time-domain workflows. 
+
+This framework effectively bridges the gap between raw data capture and scientific insight, ensuring that automated discovery remains transparent, reproducible, and ready for the rigorous validation demands of modern observational astrophysics.
