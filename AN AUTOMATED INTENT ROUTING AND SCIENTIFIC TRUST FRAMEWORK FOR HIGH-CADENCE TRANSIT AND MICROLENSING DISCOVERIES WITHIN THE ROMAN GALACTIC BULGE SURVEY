@@ -1,0 +1,238 @@
+# AN AUTOMATED INTENT ROUTING AND SCIENTIFIC TRUST FRAMEWORK FOR HIGH-CADENCE TRANSIT AND MICROLENSING DISCOVERIES WITHIN THE ROMAN GALACTIC BULGE SURVEY
+
+Sierra Warren  
+Stellar Intelligence Consortium  
+ORCID: 0009-0004-2368-6030
+
+---
+
+## ABSTRACT
+
+The Nancy Grace Roman Space Telescope's Galactic Bulge Time-Domain Survey (GBTDS) is expected to generate unprecedented volumes of high-cadence photometric observations across densely populated stellar fields. While these observations will significantly expand opportunities for exoplanet discovery through both transit and microlensing techniques, they also introduce challenges involving signal crowding, event classification, provenance tracking, and scientific reproducibility.
+
+This work presents ASTRID (Automated Scientific Trust and Intent Routing Intelligence Director), a provenance-centered architectural framework developed within the Stellar Intelligence platform. Rather than treating classification as a single opaque prediction task, ASTRID organizes scientific reasoning through a structured four-stage validation pipeline: Observation, Evidence, Interpretation, and Uncertainty.
+
+The framework introduces intent-based routing, auditable evidence chains, and immutable research journaling to ensure that each scientific conclusion remains traceable to its originating observations and supporting datasets. Simulated Roman-style transit and microlensing workflows demonstrate how the architecture can preserve transparency during high-throughput event analysis while reducing risks associated with metadata loss and non-explainable decision pathways.
+
+This work proposes a reproducible foundation for future astronomical discovery systems where scientific trust, provenance, and interpretability are treated as first-class design requirements.
+
+---
+
+## SCIENTIFIC MOTIVATION
+
+### The Challenge
+
+Roman's Galactic Bulge Survey will observe hundreds of millions of stars in crowded stellar environments.
+
+These conditions create several challenges:
+
+- Overlapping photometric signals
+- Crowded-field contamination
+- High false-positive risk
+- Metadata provenance loss
+- Limited interpretability of machine-learning outputs
+
+Traditional pipelines frequently prioritize classification accuracy while providing limited visibility into intermediate reasoning steps.
+
+---
+
+## RESEARCH OBJECTIVE
+
+Design a scientific trust architecture capable of:
+
+✓ Preserving data provenance
+
+✓ Supporting reproducible event validation
+
+✓ Maintaining transparent reasoning pathways
+
+✓ Scaling to Roman-class observational workloads
+
+✓ Separating observation from interpretation
+
+---
+
+## THE ASTRID FRAMEWORK
+
+### Four-Stage Scientific Trust Loop
+
+### 1. OBSERVATION
+
+Raw photometric measurements enter the system without modification.
+
+Inputs may include:
+
+- Light curves
+- Time-series telemetry
+- Catalog metadata
+- Survey observations
+
+Output:
+
+Structured observational record.
+
+---
+
+### 2. EVIDENCE
+
+External validation sources are consulted.
+
+Examples:
+
+- NASA Exoplanet Archive
+- Gaia DR3
+- SIMBAD
+- Mission catalogs
+
+Output:
+
+Evidence package with source attribution.
+
+---
+
+### 3. INTERPRETATION
+
+Scientific models are evaluated in isolated execution environments.
+
+Potential analyses:
+
+- Transit fitting
+- Microlensing fitting
+- Candidate classification
+- Event characterization
+
+Output:
+
+Interpreted scientific hypothesis.
+
+---
+
+### 4. UNCERTAINTY
+
+Confidence limits are explicitly calculated and preserved.
+
+Includes:
+
+- Variance estimates
+- Confidence intervals
+- Model limitations
+- Competing hypotheses
+
+Output:
+
+Auditable uncertainty record.
+
+---
+
+## INTENT ROUTING ARCHITECTURE
+
+ASTRID introduces an intent-routing layer that determines how incoming scientific requests are processed.
+
+The routing system:
+
+- Classifies analysis objectives
+- Selects appropriate validation workflows
+- Preserves provenance metadata
+- Enforces evidence requirements
+- Creates immutable audit records
+
+This approach transforms scientific processing into a traceable state machine rather than a black-box prediction pipeline.
+
+---
+
+## SIMULATED ROMAN USE CASES
+
+### Transit Detection Scenario
+
+Input:
+
+Periodic photometric dimming observed within a crowded stellar field.
+
+ASTRID Process:
+
+Observation → Evidence → Interpretation → Uncertainty
+
+Result:
+
+Transparent transit candidate assessment with complete provenance tracking.
+
+---
+
+### Microlensing Event Scenario
+
+Input:
+
+Transient amplification event consistent with gravitational lensing.
+
+ASTRID Process:
+
+Observation → Evidence → Interpretation → Uncertainty
+
+Result:
+
+Auditable microlensing analysis with preserved model assumptions and uncertainty bounds.
+
+---
+
+## SCIENTIFIC GOVERNANCE
+
+Every transaction generates an immutable entry within the Stellar Journal.
+
+The journal records:
+
+- Source observations
+- Evidence references
+- Analytical actions
+- Model outputs
+- Uncertainty assessments
+
+Benefits:
+
+- Reproducibility
+- Traceability
+- Explainability
+- Auditability
+- Research integrity
+
+---
+
+## FUTURE WORK
+
+Planned development areas include:
+
+- Roman survey integration studies
+- Automated candidate triage
+- Multi-agent validation workflows
+- Scalable cloud-native deployment
+- Human-in-the-loop scientific review systems
+
+---
+
+## REPOSITORY
+
+Stellar Intelligence Platform
+
+GitHub Repository:
+https://github.com/SWD-LLC/Stellar_Intelligence
+
+DOI:
+To be assigned upon publication.
+
+---
+
+## DISCLOSURES
+
+This work presents a proposed architectural framework and simulated operational workflows. No proprietary Roman mission data were used.
+
+AI-assisted tools, including large language models (LLMs), were used during architectural design, drafting, editing, and documentation. All scientific interpretations and final research content were reviewed and validated by the author.
+
+---
+
+## CONTACT
+
+Sierra Warren  
+Stellar Intelligence Consortium
+
+2026 Sagan Summer Workshop  
+Exoplanets with Roman Surveys: Microlensing and Transits  
+Pasadena, California
