@@ -3,20 +3,17 @@
 Developed by Sierra Warren (Sierra Warren Developments LLC)
 
 [![ORCID iD](https://img.shields.io/badge/ORCID-0009--0004--2368--6030-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-2368-6030)
-[![DOI: Pending](https://img.shields.io/badge/DOI-Pending-blue.svg)](https://zenodo.org/me/uploads)
+[![DOI: Pending](https://img.shields.io/badge/DOI-Pending-blue.svg)](https://zenodo.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An open-source asynchronous intent-routing engine and scientific trust pipeline designed to preserve data provenance across high-cadence, time-domain astronomical workflows (e.g., Nancy Grace Roman Space Telescope GBTDS-style telemetry).
-
-## Status
-> ⚠️ **Pre-registration Notice:** ORCID profile configuration and Zenodo DOI records are currently pending final deposit. Do not cite externally until a permanent DOI identifier is assigned.
+An open-source asynchronous intent-routing engine and scientific trust pipeline designed to preserve data provenance across high-cadence, time-domain astronomical workflows.
 
 ## System Metadata
 
 - **Principal Architect:** Sierra Warren
-- **Affiliation:** University of Kentucky / Stellar Intelligence Consortium
+- **Affiliation:** Sierra Warren Developments LLC (Current affiliation: University of Arkansas)
 - **Core Agent Engine:** ASTRID (Astronomical System for Translating Radiance Into Discovery)
-- **Primary Data Targets:** Programmatic API/TAP interfaces against the NASA Exoplanet Archive, ESA Gaia DR3, and SIMBAD/CDS
+
 
 ## Core Lifecycle Flow (the ASTRID loop)
 
