@@ -1,0 +1,28 @@
+# Stellar Intelligence (v2.0) — ASTRID Reasoning Core
+
+[![ORCID iD](https://img.shields.io/badge/ORCID-0009--0004--2368--6030-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-2368-6030)
+[![DOI: Pending](https://img.shields.io/badge/DOI-Pending-blue.svg)](https://zenodo.org/me/uploads)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+An open-source asynchronous intent-routing engine and scientific trust pipeline designed to preserve data provenance across high-cadence, time-domain astronomical workflows (e.g., Nancy Grace Roman Space Telescope GBTDS-style telemetry).
+
+## Status
+> ⚠️ **Pre-registration Notice:** ORCID profile configuration and Zenodo DOI records are currently pending final deposit. Do not cite externally until a permanent DOI identifier is assigned.
+
+## System Metadata
+
+- **Principal Architect:** Sierra Warren
+- **Affiliation:** University of Kentucky / Stellar Intelligence Consortium
+- **Core Agent Engine:** ASTRID (Astronomical System for Translating Radiance Into Discovery)
+- **Primary Data Targets:** Programmatic API/TAP interfaces against the NASA Exoplanet Archive, ESA Gaia DR3, and SIMBAD/CDS
+
+## Core Lifecycle Flow (the ASTRID loop)
+
+The platform routes every data-ingest transaction through a strict, linear state progression to prevent model-based drift:
+
+1. **`OBS` — Observation:** Raw photometric / multi-modal flux input is captured and locked.
+2. **`EVID` — Evidence:** Parameters are retrieved and locked against trusted baseline catalogs.
+3. **`INT` — Interpretation:** Sandboxed, containerized modeling of transit and microlensing profiles.
+4. **`UNC` — Uncertainty:** Explicit variance mapping ($1\sigma / 3\sigma$) — never collapsed to a single point estimate.
+
+Every transaction's full trace is written to an immutable manifest ("the Stellar Journal") for auditability and reproducibility.
